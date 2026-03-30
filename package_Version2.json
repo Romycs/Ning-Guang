@@ -1,0 +1,31 @@
+{
+  "name": "ning-guang",
+  "version": "1.0.0",
+  "description": "Telegram бот для скачивания видео и аудио с YouTube, TikTok, Instagram и Facebook",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "video",
+    "downloader",
+    "youtube",
+    "tiktok",
+    "instagram",
+    "facebook"
+  ],
+  "author": "Romycs",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.63.0",
+    "ytdl-core": "^4.11.5",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
